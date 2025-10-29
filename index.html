@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile & Course Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    
+    <!-- <header >
+         <h1>Welcome to Student Dashboard</h1> -->
+        <nav>
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Courses">Courses</a></li>
+            <li><a href="#Feedback">Feedback</a></li>
+            <li><a href="#Grades">Grades</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            </ul>
+         </nav>
+    <!-- </header> -->
+     <hr>
+    <main>
+       <section id="home">
+        <blockquote>
+          <h1>Home</h1>
+          <h2> Welcome to my student profile!</h2>
+          <p>This website is a collection of my learning journey, skills, and projects. Here, you can explore my personal details, the courses I have studied, my grades, and feedback forms. I’m passionate about learning web development and improving my English skills every day.This is the main landing page. Here you can access all student information and resources.</p>
+       </section>
+       <hr>
+       <section id="profile">
+        <blockquote>
+        <h1>
+            My Profile
+        </h1>
+        <img src="image/nisha.png" alt="My image">
+        <h2>
+            Personal Details
+        </h2>
+        <p>
+            My name is Nisha Painkra. I am currently a student at the School of Programming, and I am learning web development. I enjoy creating websites and exploring new technologies. I am passionate about improving my coding skills and building creative projects that can help others.
+        </p>
+        <hr>
+        <div id="about">
+        <div class="hobbies">
+        <h2>
+            My Hobbies
+        </h2>
+        <ul>
+            <li>Reading stories</li>
+            <li>Creating web pages</li>
+            <li>Listening to songs</li>
+            <li>playing</li>
+        </ul>
+        </div>
+
+        <div class="goals">
+        <h3>
+            My Goals
+        </h3>
+        <ol>
+            <li>Engineer</li>
+            <li>Good person</li>
+            <li>help others</li>
+        </ol>
+        </div>
+
+        <div class="skills">
+        <h3>
+            My Skills
+        </h3>
+         <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaSrcipt</li>
+         </ul>
+         </div>
+         </div>
+         </blockquote>
+        </section>
+        <hr>
+
+        <section id="Courses">
+            <blockquote>
+           <h1>
+            My Courses
+           </h1>
+           <h2>Current Courses</h2>
+        <ul>
+            <li>
+                Web Development Basics
+                <p>Learn the fundamentals of building websites including HTML, CSS, and basic JavaScript.</p>
+            </li>
+            <li>
+                HTML & CSS
+                <p>Focus on structuring web pages with HTML and styling them with CSS.</p>
+            </li>
+            <li>
+                JavaScript Fundamentals
+                <p>Introduction to programming logic and interactive web elements using JavaScript.</p>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h2>Completed Courses</h2>
+        <ol>
+            <li>
+                10th Class - Completed in 2022-2023
+                <p>Finished my secondary school education successfully.</p>
+            </li>
+            <li>
+                12th Class - Completed in 2024-2025
+                <p>Completed higher secondary education with focus on [My stream, e.g., Science].</p>
+            </li>
+        </ol>
+        </blockquote>
+        </section>
+         <hr>
+
+        <section id="Feedback">
+            <blockquote>
+            <h1>Submit Feedback</h1>
+            <form>
+                <label for="name">Name : </label><br><br>
+                <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+
+                <label for="email">Email :</label><br><br>
+                <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+                 
+                <hr>
+                <strong>Gender:</strong><br><br>
+                <hr>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+                
+                <hr>
+                <strong>Hobbies :</strong><br><br>
+                <hr>
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="playing" name="hobbies" value="Playing">
+                <label for="playing">Playing</label><br>
+                <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                <label for="coding">Coding</label><br><br>
+                <hr>
+                <label for="Feedback">Your Feedback:</label><br><br>
+                <textarea id="Feedback" name="Feedback" placeholder="Write your feedback here." required></textarea><br><br>
+
+                <label for="rating">Rating:</label><br>
+                <select id="rating" name="rating" required>
+                <option value="choose rating">Choose rating</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Good">Good</option>
+                </select><br><br>
+                 
+                <button type="submit">Send Data</button>
+            </form>
+            </blockquote>
+        </section>
+        <hr>
+
+        <section id="Grades">
+            <blockquote>
+            <h1>My Grades</h1>
+            <table border="1">
+                <caption>
+                    Student Grades
+                </caption>
+                <thead>
+                    <tr>
+                    <th>Subject</th>
+                    <th>Grades</th>
+                    <th>Credits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>A+</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>CSS</td>
+                        <td>B+</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>B</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="2" style="text-align:left;">Total Credits</td>
+                    <td><strong>6</strong></td>
+                </tfoot>
+            </table>
+            </blockquote>
+        </section>
+        <hr>
+
+        <section id="Contact">
+            <blockquote>
+            <h1>Contact Us</h1>
+            <p>If you have any questions or want to contact us, please use the details below:</p>
+            <p><strong>Email :</strong><a href="nishapainkra25@navgurukul.org">nishapainkra25@navgurukul.org</a></p>
+            <p><strong>Phone :</strong>  9238336313</p>
+            <p><address><strong>Address :</strong>Kersai Bartoli Jashpur  Chhattisgarh, India</address></p>
+            </blockquote>
+        </section>
+        <hr>
+
+        <footer>
+          <blockquote>
+          <p><em>&copy; 2025 My Student Portal | All Rights Reserved</em></p>
+          </blockquote>
+        </footer>
+        <hr>
+    </main>
+</body>
+</html>

@@ -1,0 +1,438 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+ 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #004aad;
+  padding: 15px;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffde59;
+}
+
+#home{
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+}
+#home h1{
+    padding-top: 30px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: auto;
+    color: #004aad;
+}
+
+#home h2{
+    font-size: 40px;
+}
+#home p{
+    font-size: 30px;
+    text-align: start;
+    margin: auto;
+}
+
+img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 300px;
+   height: 50vh;
+   border-radius: 50%;
+   border:2px solid black;
+   object-fit: cover;
+}
+
+#profile h1{
+    color: #004aad;
+    text-align: center;
+}
+
+#profile ul, ol{
+    /* list-style: none; */
+    padding-left: 0;
+}
+
+#profile{
+    margin: 5px 0;
+    height: 200vh;
+    padding-top: 50px;
+}
+
+.hobbies{
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px;
+     width:300px;
+     box-shadow:0 8px 15px rgba(0,0,0,0.5);
+     /* list-style-type: none; */
+     height:40vh;
+     gap:20px;
+}
+
+.goals{
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px;
+     width:300px;
+     box-shadow:0 8px 15px rgba(0,0,0,0.5);
+     /* list-style-type: none; */
+     height:40vh;
+     gap:20px;
+}
+.skills{
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px;
+     width:300px;
+     box-shadow:0 8px 15px rgba(0,0,0,0.5);
+     /* list-style-type: none; */
+     height:40vh;
+     gap:20px;
+}
+
+#about{
+    display: flex;
+    gap:20px;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#Courses h1{
+    color: #004aad;
+    text-align: center;
+}
+#Courses ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:0;
+    justify-content: center;
+
+}
+
+#Courses ul li{
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px;
+     width:300px;
+     box-shadow:0 8px 15px rgba(0,0,0,0.5);
+     list-style-type: none;
+     height:50vh;
+     gap:20px;
+
+}
+
+#Courses ol li{
+    display: flex;
+    flex-direction: column;
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px;
+     width:300px;
+     height:50vh;
+     box-shadow:0 8px 15px rgba(0,0,0,0.5);
+     list-style-type: none;
+     gap:20px;
+}
+
+#Courses ol{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:0;
+    justify-content: center;
+}
+
+#Courses h2{
+    text-align: center;
+    color:black;
+}
+
+#Courses{
+    height: 200vh;
+    padding-top: 50px;
+    gap:20px;
+}
+
+#Feedback h1{
+    color: #004aad;
+    text-align: center;
+}
+
+#Feedback{
+    height: 200vh;
+    padding-top:50px;
+    font-size: 10px;
+    gap:10px;
+}
+
+#Feedback form{
+    max-width: 500px;
+    margin: auto;
+    padding:5px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow:0 8px 15px rgba(0,0,0,0.5);
+}
+
+#Feedback label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#Feedback input{
+    width: 100%;
+    padding:8px;
+    border:2px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    box-sizing:border-box;
+}
+
+#Feedback textarea{
+    width: 100%;
+    height: 8vh;
+    padding:8px;
+    border:2px solid black;
+    border-radius: 5px;
+    font-size: 7px;
+    box-sizing:border-box;
+}
+
+#Feedback button{
+    width: 100%;
+    background-color: #004aad;
+    color: white;
+    padding:8px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#Feedback button:hover{
+        background-color:red;
+    }
+
+#Feedback input:focus{
+    background-color:yellow;
+}
+
+#Grades h1{
+    color: #004aad;
+    text-align: center;
+} 
+
+#Grades{
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#Grades table{
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow:0 8px 15px rgba(0,0,0,0.5);
+}
+
+#Grades caption{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Grades th{
+      background-color:skyblue;
+      color: black;
+      font-weight: bold;
+      padding:10px;
+      text-align: center;
+      border:2px solid black;
+}
+
+#Grades td{
+    padding:10px;
+    text-align: center;
+    border:2px solid black;
+    font-weight: bold;
+}
+
+/* #Grades table tr:nth-child(even){
+    background-color: #004aad;
+    color:white;
+} */
+
+#Grades table tr:hover{
+    background-color:bisque;
+}
+#Grades tfoot td {
+    align-self: start;
+}
+
+#Contact{
+    height: 70vh;
+    padding-top: 50px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Contact h1{
+    color: #004aad;
+    text-align: center;
+    padding:30px;
+    padding-top: 30px;
+}
+
+#Contact p{
+    text-align: start;
+    margin:10px;
+}
+
+#Contact a{
+    color: #004aad;
+    text-decoration: none;
+}
+
+ 
+#Contact p address{
+    text-align: center;
+    margin:10px;
+}
+
+footer{
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+
+
+
+@media (max-width: 1024px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #home h1 {
+    font-size: 40px;
+  }
+
+  #home p {
+    font-size: 20px;
+  }
+
+  #about, #Courses ol, #Courses ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hobbies, .goals, .skills, 
+  #Courses ul li, #Courses ol li {
+    width: 80%;
+    height: auto;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* 📱 For Mobile Screens */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav{
+    height: 10vh;
+  }
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  #home h1 {
+    font-size: 32px;
+  }
+
+  #home h2 {
+    font-size: 24px;
+  }
+
+  #home p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #profile, #Courses, #Feedback, #Grades, #Contact {
+    height: auto;
+    padding: 30px 10px;
+    padding-top: 50px;
+  }
+
+  .hobbies, .goals, .skills {
+    width: 100%;
+    height: auto;
+  }
+
+  #Courses ul li, #Courses ol li {
+    width: 100%;
+    height: auto;
+  }
+
+  #Feedback form {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  #Feedback input, #Feedback textarea, #Feedback button {
+    font-size: 12px;
+  }
+
+  #Grades table {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
