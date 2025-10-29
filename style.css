@@ -44,10 +44,10 @@ nav ul li a:hover {
 }
 
 #home h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 #home p{
-    font-size: 30px;
+    font-size: 25px;
     text-align: start;
     margin: auto;
 }
@@ -66,6 +66,7 @@ img{
 #profile h1{
     color: #004aad;
     text-align: center;
+    font-size:50px;
 }
 
 #profile ul, ol{
@@ -147,6 +148,7 @@ img{
 #Courses h1{
     color: #004aad;
     text-align: center;
+    font-size:50px;
 }
 #Courses ul{
     display: flex;
