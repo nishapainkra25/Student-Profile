@@ -416,6 +416,11 @@ footer {
     font-size: 20px;
   }
 
+  .skill{
+    flex-direction: column;
+    text-align: center;
+}
+
   #about, #Courses ol, #Courses ul {
     flex-direction: column;
     align-items: center;
@@ -457,7 +462,7 @@ footer {
     text-align: center;
     padding-top: 70px;
   }
-  
+
   #home h1 {
     font-size: 25px;
   }
@@ -486,7 +491,125 @@ footer {
     font-size: 25px;
     padding-top: 50px;
   }
-  
+  .hobbies, .goals, .skills {
+    width: 80%;
+    height: auto;
+  }
+
+  #Courses ul li, #Courses ol li {
+    width: 90%;
+    height: auto;
+  }
+
+  #Feedback form {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  #Feedback input, #Feedback textarea, #Feedback button {
+    font-size: 12px;
+  }
+
+  #Grades table {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #home h1 {
+    font-size: 40px;
+  }
+
+  #home p {
+    font-size: 20px;
+  }
+
+  .skill{
+    flex-direction: column;
+    text-align: center;
+}
+
+  #about, #Courses ol, #Courses ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hobbies, .goals, .skills, 
+  #Courses ul li, #Courses ol li {
+    width: 80%;
+    height: auto;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav{
+    height: 10vh;
+  }
+
+  #about{
+    flex-direction: column;
+    text-align: center;
+  }
+
+.skill{
+    flex-direction: column;
+    text-align: center;
+}
+  #home {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  #home h1 {
+    font-size: 25px;
+  }
+
+  #home h2 {
+    font-size: 20px;
+  }
+
+  #home p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #profile, #Courses, #Feedback, #Grades, #Contact {
+    height: auto;
+    padding: 30px 10px;
+    padding-top: 50px;
+  }
+
+  #Courses h1{
+    font-size: 25px;
+    padding-top: 50px;
+  }
   .hobbies, .goals, .skills {
     width: 80%;
     height: auto;
