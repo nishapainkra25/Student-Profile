@@ -70,7 +70,6 @@ img{
 }
 
 #profile ul, ol{
-    /* list-style: none; */
     padding-left: 0;
 }
 
@@ -136,7 +135,6 @@ img{
 }
 
 #about{
-    display: flex;
     gap:20px;
     height: 100vh;
     padding-top: 40px;
