@@ -404,6 +404,7 @@ footer {
 @media (max-width: 1024px) {
   nav ul {
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 10px;
     padding: 10px;
   }
@@ -431,6 +432,9 @@ footer {
     width: 80%;
     height: auto;
   }
+  #Courses h1{
+    padding-top: 30%;
+  }
 
   img {
     width: 150px;
@@ -440,7 +444,7 @@ footer {
 
 @media (max-width: 600px) {
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -520,122 +524,123 @@ footer {
     padding: 10px;
   }
 }
-@media (max-width: 1024px) {
+
+/* 📱 iPhone SE or small screens fix */
+@media (max-width: 400px) {
+  nav ul {
+    flex-direction: row;
+    gap: 5px;
+    padding: 8px;
+  }
+
+  #home h1 {
+    font-size: 22px;
+  }
+
+  #home h2 {
+    font-size: 18px;
+  }
+
+  #home p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hobbies, .goals, .skills,
+  #Courses ul li, #Courses ol li {
+    width: 95%;
+    font-size: 14px;
+    height: auto;
+  }
+
+  #Courses h1, #profile h1, #Feedback h1, #Grades h1, #Contact h1 {
+    font-size: 28px;
+  }
+
+  #Courses h1{
+    font-size: 28px;
+    padding-top: 55%;
+  }
+  #Courses h2 {
+    font-size: 18px;
+  }
+
+  #Courses ul, #Courses ol {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cont{
+    height: 40vh;
+}
+  #Feedback form {
+    width: 95%;
+    padding: 8px;
+  }
+
+  #Feedback input,
+  #Feedback textarea,
+  #Feedback button {
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 540px) {
   nav ul {
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
+    gap: 15px;
     padding: 10px;
   }
 
-  #home h1 {
-    font-size: 40px;
-  }
-
-  #home p {
-    font-size: 20px;
-  }
-
-  .skill{
-    flex-direction: column;
-    text-align: center;
-}
-
-  #about, #Courses ol, #Courses ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hobbies, .goals, .skills, 
-  #Courses ul li, #Courses ol li {
-    width: 80%;
-    height: auto;
-  }
-
-  img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav{
-    height: 10vh;
-  }
-
-  #about{
-    flex-direction: column;
-    text-align: center;
-  }
-
-.skill{
-    flex-direction: column;
-    text-align: center;
-}
-  #home {
-    flex-direction: column;
-    text-align: center;
-    padding-top: 70px;
-  }
-
-  #home h1 {
-    font-size: 25px;
-  }
-
-  #home h2 {
-    font-size: 20px;
-  }
-
-  #home p {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  img {
-    width: 150px;
-    height: 150px;
-  }
-
-  #profile, #Courses, #Feedback, #Grades, #Contact {
-    height: auto;
-    padding: 30px 10px;
-    padding-top: 50px;
+  #Courses h1, #profile h1, #Feedback h1, #Grades h1, #Contact h1 {
+    font-size: 28px;
   }
 
   #Courses h1{
-    font-size: 25px;
-    padding-top: 50px;
+    font-size: 28px;
+    padding-top: 40%;
   }
-  .hobbies, .goals, .skills {
-    width: 80%;
-    height: auto;
+  #home h1 {
+    font-size: 32px;
   }
 
+  #home h2 {
+    font-size: 22px;
+  }
+
+  #home p {
+    font-size: 18px;
+  }
+
+  img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hobbies, .skills, .goals,
   #Courses ul li, #Courses ol li {
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 
   #Feedback form {
-    width: 90%;
-    font-size: 12px;
-  }
-
-  #Feedback input, #Feedback textarea, #Feedback button {
-    font-size: 12px;
-  }
-
-  #Grades table {
-    font-size: 12px;
-    width: 100%;
+    width: 85%;
   }
 
   footer {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 14px;
   }
+}
+
 }
